@@ -199,7 +199,7 @@
         </a-entity>
         <a-entity
           id="ctlR"
-          raycaster="objects: .clickable; far: 1.4"
+          raycaster="objects: .clickable; far: 2.0"
           laser-controls=""
           input-listen=""
           daydream-controls="hand: right"
@@ -210,15 +210,6 @@
           vive-focus-controls="hand: right"
           windows-motion-controls=""
         >
-          <a-text
-            value="Trigger: shoot a ball\nGrip: Grab large object\nA: Remove small balls"
-            position="0 0.05 0"
-            rotation="-90 0 0"
-            scale="0.1 0.1 0.1"
-            align="center"
-            color="#FFFFFF"
-            text=""
-          ></a-text>
         </a-entity>
       </a-entity>
     </a-scene>
@@ -229,15 +220,176 @@
 
       box.addEventListener("raycaster-intersected", function() {
         box.setAttribute("material", {
-          src:
-            "https://cdn.glitch.com/ff3289c7-f178-4ad7-8549-4d8c40695547%2FScreen%20Shot%202019-12-18%20at%2010.14.43%20AM.png?v=1578965188091"
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
         });
       });
       box.addEventListener("raycaster-intersected-cleared", function() 
       {
         box.setAttribute("material", {
           src:
-            "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202%20(1).png?v=1578943144099"
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202%20(1).png?v=1578943144099"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box14"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%201.png?v=1578943065799"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box12"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%204%20(2).png?v=1578943292246"
+        });        
+      });
+    </script>
+     <script>
+      var box = document.querySelector(
+        "#box11"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box10"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box9"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box8"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box7"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box6"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
+        });        
+      });
+    </script>
+    <script>
+      var box = document.querySelector(
+        "#box5"
+      ); /* replace #mybox with the ID of the item you want to interact */
+
+      box.addEventListener("raycaster-intersected", function() {
+        box.setAttribute("material", {
+          src:"https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%202.5.png?v=1579029803007"
+        });
+      });
+      box.addEventListener("raycaster-intersected-cleared", function() 
+      {
+        box.setAttribute("material", {
+          src:
+           "https://cdn.glitch.com/bb16476b-6098-4696-93cf-90e95a753c4c%2FMemory%20Palace%20VR%206.png?v=1578944074220"
         });        
       });
     </script>
