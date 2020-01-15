@@ -46,15 +46,15 @@
                 });
 
                 //Grip Pressed
-                this.el.addEventListener('gripdown', function (e) {
+                //this.el.addEventListener('gripdown', function (e) {
                     //Setting grip flag as true.
-                    this.grip = true;
-                });
+                  //  this.grip = true;
+                //});
                 //Grip Released
-                this.el.addEventListener('gripup', function (e) {
+                //this.el.addEventListener('gripup', function (e) {
                     //Setting grip flag as false.
-                    this.grip = false;
-                });
+                //    this.grip = false;
+                //});
 
                 //Raycaster intersected with something.
                 this.el.addEventListener('raycaster-intersection', function (e) {
